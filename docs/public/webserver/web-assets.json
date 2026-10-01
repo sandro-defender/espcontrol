@@ -2,9 +2,9 @@
   "schemaVersion": 1,
   "bundles": [
     {
-      "id": "47650936bdfce23a186d975c30fa95c0c35ce1b31724077ba7133cdacfc1ce53",
-      "sha256": "47650936bdfce23a186d975c30fa95c0c35ce1b31724077ba7133cdacfc1ce53",
-      "path": "bundles/47650936bdfce23a186d975c30fa95c0c35ce1b31724077ba7133cdacfc1ce53/www.js",
+      "id": "4f299b43153419c3dfab422c540ed80bd1042f94d42f985618f5c76d4152932f",
+      "sha256": "4f299b43153419c3dfab422c540ed80bd1042f94d42f985618f5c76d4152932f",
+      "path": "bundles/4f299b43153419c3dfab422c540ed80bd1042f94d42f985618f5c76d4152932f/www.js",
       "deviceProfiles": [
         "guition-esp32-p4-jc1060p470",
         "guition-esp32-p4-jc1060p470-v2",
@@ -13,6 +13,7 @@
         "guition-esp32-p4-jc8012p4a1-v2",
         "guition-esp32-p4-jc8012p4a1-v3",
         "esp32-p4-86",
+        "ospreypi-esp32-s3-480x480",
         "guition-esp32-s3-4848s040"
       ],
       "firmwareVersions": [
@@ -21,9 +22,9 @@
       "webAssetVersion": 2
     },
     {
-      "id": "47650936bdfce23a186d975c30fa95c0c35ce1b31724077ba7133cdacfc1ce53",
-      "sha256": "47650936bdfce23a186d975c30fa95c0c35ce1b31724077ba7133cdacfc1ce53",
-      "path": "bundles/47650936bdfce23a186d975c30fa95c0c35ce1b31724077ba7133cdacfc1ce53/www.js",
+      "id": "4f299b43153419c3dfab422c540ed80bd1042f94d42f985618f5c76d4152932f",
+      "sha256": "4f299b43153419c3dfab422c540ed80bd1042f94d42f985618f5c76d4152932f",
+      "path": "bundles/4f299b43153419c3dfab422c540ed80bd1042f94d42f985618f5c76d4152932f/www.js",
       "deviceProfiles": [
         "guition-esp32-p4-jc1060p470",
         "guition-esp32-p4-jc1060p470-v2",
@@ -32,6 +33,7 @@
         "guition-esp32-p4-jc8012p4a1-v2",
         "guition-esp32-p4-jc8012p4a1-v3",
         "esp32-p4-86",
+        "ospreypi-esp32-s3-480x480",
         "guition-esp32-s3-4848s040"
       ],
       "firmwareVersions": [
@@ -51,6 +53,7 @@
         "guition-esp32-p4-jc8012p4a1-v2",
         "guition-esp32-p4-jc8012p4a1-v3",
         "esp32-p4-86",
+        "ospreypi-esp32-s3-480x480",
         "guition-esp32-s3-4848s040"
       ],
       "firmwareVersions": [
@@ -74,6 +77,7 @@
         "guition-esp32-p4-jc8012p4a1-v2",
         "guition-esp32-p4-jc8012p4a1-v3",
         "esp32-p4-86",
+        "ospreypi-esp32-s3-480x480",
         "guition-esp32-s3-4848s040"
       ],
       "firmwareVersions": [
