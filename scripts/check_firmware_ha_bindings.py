@@ -2470,7 +2470,11 @@ def firmware_camera_refresh_action_errors(root: Path) -> list[str]:
     for package_path in sorted((root / "devices").glob("*/packages.yaml")):
         slug = package_path.parent.name
         package_text = package_path.read_text(encoding="utf-8")
-        expected = "image_cards_2.yaml" if slug == "guition-esp32-s3-4848s040" else "image_cards_6.yaml"
+        expected = (
+            "image_cards_2.yaml"
+            if slug in {"guition-esp32-s3-4848s040", "ospreypi-esp32-s3-480x480"}
+            else "image_cards_6.yaml"
+        )
         if expected not in package_text:
             errors.append(
                 f"{package_path.relative_to(root)}: include {expected} so camera refresh action support "
